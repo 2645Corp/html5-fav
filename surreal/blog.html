@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+	<meta charset="UTF-8">
+	<title>Surreal Studio Blog</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		
+	<!-- CSS Styles -->
+    <link rel="stylesheet" type="text/css" href="css/skeleton.css">	
+	<link rel="stylesheet" type="text/css" href="css/layout.css">
+    <link rel="stylesheet" type="text/css" href="css/prettyPhoto.css">
+    
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+
+	<!-- Google Web Fonts -->
+	<link href="http://fonts.useso.com/css?family=Shadows+Into+Light|Oswald:400,300,700" rel="stylesheet prefetch" type="text/css">
+    
+    <!-- JavaScripts -->
+    <script type="text/javascript" src="js/prefixfree.min.js"></script>
+	<script type="text/javascript" src="js/modernizr-2.6.2.js"></script>
+    <script type="text/javascript" src="js/iOS-timer.js"></script>
+    <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
+    <script type="text/javascript" src="js/jquery.easing.min.js"></script>
+    <script type="text/javascript" src="js/jquery.mobile-touch-swipe-1.0.js"></script>
+    <script type="text/javascript" src="js/jquery.flexslider.js"></script>
+    <script type="text/javascript" src="js/tooltip.js"></script>
+    <script type="text/javascript" src="js/jquery.sticky.js"></script>
+
+
+	<script type="text/javascript">
+
+			var isMobile = false;
+	
+			if( navigator.userAgent.match(/Android/i) || 
+				navigator.userAgent.match(/webOS/i) ||
+				navigator.userAgent.match(/iPhone/i) || 
+				navigator.userAgent.match(/iPad/i)|| 
+				navigator.userAgent.match(/iPod/i) || 
+				navigator.userAgent.match(/BlackBerry/i)){
+								
+				isMobile = true;
+							
+			}
+			
+			/*iOS5 fixed-menu fix*/
+			var iOS5 = false;
+			
+			if (navigator.userAgent.match(/OS 5(_\d)+ like Mac OS X/i)){
+			
+				iOS5 = true;
+			
+			}
+			
+	</script>
+
+    
+	<script>
+		$(document).ready(function(){
+			$("nav").sticky({topSpacing:0});
+		});
+	</script>
+
+
+
+</head>
+
+<body ontouchstart="">
+
+
+
+<!-- Start Navigation -->
+	<nav>
+	
+		<div class="container">
+			
+			<div class="sixteen columns">
+				
+				<!-- Start Nav Menu -->
+				<ul class="menu" id="nav">
+					<li><a href="index.html#homepage">Home</a></li>
+                    <li><a href="index.html#folio">Portfolio</a></li>
+					<li><a href="index.html#about">About</a></li>
+					<li><a href="index.html#services">Services</a></li>
+                    <li><a href="index.html#features">Features</a></li>
+					<li><a href="index.html#contact">Contact</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+				</ul>
+				<!-- End Nav Menu -->
+				<!-- Start Dropmenu for mobile -->		
+				<select class="dropmenu" name="dropmenu" onChange="moveTo(this.value)">
+					<option value="" selected="selected">Menu</option>
+					<option value="index.html#homepage">Home</option>
+					<option value="index.html#folio">Portfolio</option>
+					<option value="index.html#about">About</option>
+					<option value="index.html#services">Services</option> 
+					<option value="index.html#features">Features</option> 
+					<option value="index.html#contact">Contact</option>
+                    <option value="blog.html">Blog</option> 
+				</select>
+				<!-- End Dropmenu for mobile -->
+				
+			</div>
+	
+		</div>
+	
+	</nav>
+<!-- End Navigation -->	
+     
+     
+<!--start portfolio -->
+        
+<div class="container">
+    <div class="sixteen columns blogTitle">
+    	<h1><span>Our</span><br>Blog</h1>
+    </div>
+    <div class="eleven columns">
+        
+        <div class="post post-single">
+			<div class="inner-spacer-right-lrg">
+				<div class="post-title">
+					<h3><a href="blog-post-slider.html">Slider Post Example</a></h3>
+					<div class="post-meta">
+                        By <a href="#">admin</a> in <a href="#" >demo posts</a>
+                        <div class="dateWrap">
+                            <div class="date-day">17</div>
+                            <div class="date-month">APR</div>
+                            <div class="date-year">2013</div>
+                        </div>					
+                    </div>
+				</div>
+				<div class="post-media">
+					<div class="flexslider">
+                      <ul class="slides">
+                        <li>
+                          <img src="images/blog/blog-slide-1.jpg" />
+                        </li>
+                        <li>
+                          <img src="images/blog/blog-slide-2.jpg" />
+                        </li>
+                        <li>
+                          <img src="images/blog/blog-slide-3.jpg" />
+                        </li>
+                        <li>
+                          <img src="images/blog/blog-slide-4.jpg" />
+                        </li>
+                      </ul>
+                    </div>
+				</div>				
+			</div>
+		
+            <div class="post-body">
+                <p>Morbi interdum mollis sapien. Sed ac risus. Phasellus lacinia, magna a ullamcorper laoreet, lectus arcu pulvinar risus, vitae facilisis libero dolor a purus. Sed vel lacus. Mauris nibh felis, adipiscing varius, adipiscing in, lacinia vel, tellus. Suspendisse ac urna. Etiam pellentesque mauris ut lectus.</p>
+                <div>
+                    <a href="blog-post-slider.html">Continue Reading..</a>
+                </div>
+            </div>
+                
+            <div class="tags">
+                <a href="#">Design</a>
+				<a href="#">Development</a>
+				<a href="#">News</a>
+				<a href="#">Photography</a> 
+            </div>
+		</div>
+        
+        
+        <div class="post post-single">
+			<div class="inner-spacer-right-lrg">
+				<div class="post-title">
+					<h3><a href="blog-post-image.html">Image Post Example</a></h3>
+					<div class="post-meta">
+                        By <a href="#">admin</a> in <a href="#" >demo posts</a>
+                        <div class="dateWrap">
+                            <div class="date-day">17</div>
+                            <div class="date-month">APR</div>
+                            <div class="date-year">2013</div>
+                        </div>					
+                    </div>
+				</div>
+				<div class="post-media">
+					<img src="images/blog/blog-image.jpg" class="scale-with-grid" alt="" />
+				</div>				
+			</div>
+		
+            <div class="post-body">
+                <p>Morbi interdum mollis sapien. Sed ac risus. Phasellus lacinia, magna a ullamcorper laoreet, lectus arcu pulvinar risus, vitae facilisis libero dolor a purus. Sed vel lacus. Mauris nibh felis, adipiscing varius, adipiscing in, lacinia vel, tellus. Suspendisse ac urna. Etiam pellentesque mauris ut lectus.</p>
+                <div>
+                    <a href="blog-post-image.html">Continue Reading..</a>
+                </div>
+            </div>
+                
+            <div class="tags">
+                <a href="#">Design</a>
+				<a href="#">Development</a>
+				<a href="#">News</a>
+				<a href="#">Photography</a> 
+            </div>
+		</div>
+
+
+        <div class="post post-single">
+        <div class="inner-spacer-right-lrg">
+            <div class="post-title">
+            	<h3><a href="blog-post-video.html">Video Post Example</a></h3>
+            		<div class="post-meta">
+                        By <a href="#">admin</a> in <a href="#" >demo posts</a>
+                        <div class="dateWrap">
+                            <div class="date-day">17</div>
+                            <div class="date-month">APR</div>
+                            <div class="date-year">2013</div>
+                        </div>					
+                    </div>
+          </div>
+            <div class="post-media"> 
+            	<div class="embed-container">
+            		<iframe src="http://player.vimeo.com/video/24169968?title=0&amp;byline=0&amp;portrait=0&amp;color=ff0179" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> <p><a href="http://vimeo.com/24169968">SHIFT v2</a> from <a href="http://vimeo.com/mirari">MIRARI</a> on <a href="http://vimeo.com">Vimeo</a>.</p>
+            	</div>
+            </div>
+            <div class="post-body">
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Nullam mollis. Ut justo. Suspendisse potenti.
+              <div><a class="more-link" href="blog-post-video.html">Continue Reading..</a></div>
+          </div>
+            <div class="tags">
+            	<a href="#">Design</a>
+				<a href="#">Development</a>
+				<a href="#">News</a>
+				<a href="#">Photography</a>
+             </div>
+          </div>
+
+    </div>
+</div>
+        
+<div class="four columns offset-by-one">        
+	<div class="sidebar">
+	
+	<!-- search widget -->
+	<div class="widget widget_search">
+		<form action="#" >
+			<input name="s" id="s" type="text" class="search" placeholder="Search.." value="" />
+			<input type="submit" value="Go" />
+		</form>
+	</div>
+		
+
+	<!-- text widget -->
+	<div class="widget widget_text">
+		<h3>Text Widget</h3>
+		<div class="textwidget">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium, ligula.
+		</div>
+	</div>
+	
+	
+	<!-- categories widget -->
+	<div class="widget widget_categories">
+		<h3>Categories</h3>
+		<ul>
+			<li class="cat-item"><a href="#">Category 1</a> (3)</li>
+			<li class="cat-item"><a href="#">Category 2</a> (6)</li>
+			<li class="cat-item"><a href="#">Category 3</a> (12)</li>
+			<li class="cat-item"><a href="#">Category 4</a> (4)</li>
+		</ul>
+	</div>
+
+	
+	<!-- tagcloud widget -->
+	<div class="widget widget_tag_cloud">
+		<h3>Tags</h3>
+		<div class="tagcloud">
+			<a href="#">Design</a>
+			<a href="#">Development</a>
+			<a href="#">News</a>
+			<a href="#">Photography</a>
+            <a href="#">Video</a>
+            <a href="#">Javascript</a>
+            <a href="#">SEO</a>
+		</div>
+	</div>
+	
+
+	<!-- archives widget -->
+	<div class="widget widget_archive">
+		<h3>Archives</h3>
+		<ul>
+			<li><a href="#">April 2013</a></li>
+			<li><a href="#">May 2013</a></li>
+            <li><a href="#">June 2013</a></li>
+            <li><a href="#">July 2013</a></li>
+		</ul>
+	</div>
+    
+	
+	<!-- recent comments widget -->
+	<div class="widget widget_recent_comments">
+        <h3>Recent Comments</h3>
+        <ul id="recentcomments">
+            <li class="recentcomments">admin on <a href="#">Post Title</a></li>
+            <li class="recentcomments">bitfade on <a href="#">Post Title</a></li>
+            <li class="recentcomments">admin on <a href="#">Post Title</a></li>
+        </ul>
+    </div>
+
+
+	<!-- recent posts widget -->
+    <div class="widget widget_recent_entries">		
+    	<h3>Recent Posts</h3>		
+    	<ul>
+    		<li><a href="#" title="Post Title">Post Title</a></li>
+			<li><a href="#" title="Post Title">Post Title</a></li>
+			<li><a href="#" title="Post Title">Post Title</a></li>
+		</ul>
+	</div>
+
+
+
+	<!-- pages widget -->
+	<div class="widget widget_pages">
+		<h3>Pages</h3>		
+		<ul>
+			<li class="page_item"><a href="#">Blog</a></li>
+			<li class="page_item"><a href="#">Home Page</a>
+				<ul class='children'>
+					<li class="page_item"><a href="#">Default Example</a></li>
+					<li class="page_item"><a href="#">Portfolio</a></li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+
+
+
+	<!-- calendar widget -->
+	<div class="widget widget_calendar">
+		<div id="calendar_wrap">
+			<table id="wp-calendar">
+				<caption>June 2013</caption>
+				<thead>
+					<tr>
+						<th scope="col" title="Monday">M</th>
+						<th scope="col" title="Tuesday">T</th>
+						<th scope="col" title="Wednesday">W</th>
+						<th scope="col" title="Thursday">T</th>
+						<th scope="col" title="Friday">F</th>
+						<th scope="col" title="Saturday">S</th>
+						<th scope="col" title="Sunday">S</th>
+					</tr>
+				</thead>
+
+				<tfoot>
+					<tr>
+						<td colspan="3" id="prev"><a href="#" title="View posts for April 2013">&laquo; Apr</a></td>
+						<td class="pad">&nbsp;</td>
+						<td colspan="3" id="next" class="pad">&nbsp;</td>
+					</tr>
+				</tfoot>
+
+				<tbody>
+					<tr>
+						<td colspan="5" class="pad">&nbsp;</td><td>1</td><td>2</td>
+					</tr>
+					<tr>
+						<td>3</td><td>4</td><td>5</td><td id="today"><a href="#" title="Post Title">6</a></td><td>7</td><td>8</td><td>9</td>
+					</tr>
+					<tr>
+						<td>10</td><td>11</td><td>12</td><td>13</td><td>14</td><td>15</td><td>16</td>
+					</tr>
+					<tr>
+						<td>17</td><td>18</td><td>19</td><td>20</td><td>21</td><td>22</td><td>23</td>
+					</tr>
+					<tr>
+						<td>24</td><td>25</td><td>26</td><td>27</td><td>28</td><td>29</td><td>30</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+
+
+	
+	<!-- meta widget -->
+	<div class="widget widget_meta">
+		<h3>Meta</h3>			
+		<ul>
+			<li><a href="#">Site Admin</a></li>			
+			<li><a href="#">Log out</a></li>
+			<li><a href="#" title="Syndicate this site using RSS 2.0">Entries <abbr title="Really Simple Syndication">RSS</abbr></a></li>
+			<li><a href="#" title="The latest comments to all posts in RSS">Comments <abbr title="Really Simple Syndication">RSS</abbr></a></li>
+			<li><a href="#" title="Powered by WordPress, state-of-the-art semantic personal publishing platform.">WordPress.org</a></li>
+		</ul>
+	</div>
+
+</div><!-- end sidebar -->
+        
+        
+        
+</div>
+</div>
+<!--end blog--> 
+
+       
+     
+
+    
+<!--start footer-->
+    <div id="footer">
+    
+        <div class="container">
+            <!-- Social -->
+            <div class="sixteen columns">
+                <h3 class="sectionTitle">Follow, Like, Pin all the social stuff</h3>
+                <ul class="socialLinks">
+                    <li><a href="#" title="Twitter"><i class="icon-twitter"></i></a></li>
+                    <li><a href="#" title="Facebook"><i class="icon-facebook"></i></a></li>
+                    <li><a href="#" title="Google Plus"><i class="icon-google-plus"></i></a></li>
+                    <li><a href="#" title="Dribbble"><i class="icon-dribbble"></i></a></li>
+                    <li><a href="#" title="LinkedIn"><i class="icon-linkedin"></i></a></li>
+                    <li><a href="#" title="Flickr"><i class="icon-flickr"></i></a></li>
+                    <li><a href="#" title="Pinterest"><i class="icon-pinterest"></i></a></li>
+                    <li><a href="#" title="Vimeo"><i class="icon-vimeo"></i></a></li>
+                    <li><a href="#" title="Youtube"><i class="icon-youtube"></i></a></li>
+                    <li><a href="#" title="RSS"><i class="icon-feed"></i></a></li>
+                </ul>
+            </div>
+            <!-- Social -->
+
+            
+            <div class="sixteen columns">	
+                <p class="copyright">&copy; Surreal Studio 2012. <br/>All rights reserved. Theme by <a href="http://html5css3templates.com" title="Premium Responsive Templates">HTML5CSS3Templates</a>.</p>
+            </div>
+        </div>
+    </div>
+<!--end footer-->
+
+<script type="text/javascript">
+	function moveTo(contentArea){
+		var goPosition = $(contentArea).offset().top;
+		$('html,body').animate({ scrollTop: goPosition}, 'slow');
+	}
+</script>
+
+
+<script type="text/javascript">
+  $(window).load(function(){
+	$('.flexslider').flexslider({
+	  animation: "slide",
+	  prevText: "", 
+	  nextText: "",
+	  start: function(slider){
+		$('body').removeClass('loading');
+	  }
+	});
+  });
+</script>
+
+</body>
+</html>

@@ -1,0 +1,74 @@
+@font-face {
+	font-family: "Flaticon";
+	src: url("../fonts/flaticon.eot");
+	src: url("../fonts/flaticon.eot#iefix") format("embedded-opentype"),
+	url("../fonts/flaticon.woff") format("woff"),
+	url("../fonts/flaticon.ttf") format("truetype"),
+	url("../fonts/flaticon.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+	font-family: Flaticon;
+	font-style: normal;
+}.flaticon-application1:before {
+	content: "\e000";
+}
+.flaticon-big64:before {
+	content: "\e001";
+}
+.flaticon-double2:before {
+	content: "\e002";
+}
+.flaticon-email65:before {
+	content: "\e003";
+}
+.flaticon-eyeglasses14:before {
+	content: "\e004";
+}
+.flaticon-headset8:before {
+	content: "\e005";
+}
+.flaticon-hot51:before {
+	content: "\e006";
+}
+.flaticon-joystick10:before {
+	content: "\e007";
+}
+.flaticon-light84:before {
+	content: "\e008";
+}
+.flaticon-mail20:before {
+	content: "\e009";
+}
+.flaticon-phone46:before {
+	content: "\e00a";
+}
+.flaticon-pressure:before {
+	content: "\e00b";
+}
+.flaticon-rocket6:before {
+	content: "\e00c";
+}
+.flaticon-small39:before {
+	content: "\e00d";
+}
+.flaticon-suitcase23:before {
+	content: "\e00e";
+}
+.flaticon-tablet:before {
+	content: "\e00f";
+}
+.flaticon-thumbs28:before {
+	content: "\e010";
+}
+.flaticon-tie:before {
+	content: "\e011";
+}
+.flaticon-user85:before {
+	content: "\e012";
+}
+.flaticon-zoom46:before {
+	content: "\e013";
+}

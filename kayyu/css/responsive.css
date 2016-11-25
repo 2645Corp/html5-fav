@@ -1,0 +1,358 @@
+/* ================================= Responsive CSS ================================= */
+
+/* ---------- MAX 1100px ---------- */
+@media only screen and (max-width:1100px ) {
+
+	/* ----- Timeline ------- */
+	.timeline li:before{
+		left:-14.2%;
+	}
+	.timeline li:nth-of-type(2n):after{
+		right:-14.2%;
+	}
+	li.subscribe:before{
+		left:-16.3%;
+	}
+	
+	/* ----- Subscribe section ------- */
+	.subscribe-icon
+	{
+		left: -13%;
+    	top: 7%;
+	}	
+	.blog-text{display:block;}		
+}
+
+
+/* ---------- MAX 980px ---------- */
+@media only screen and (max-width:1105px) and (min-width: 980px) 
+{	
+	/* ----- Price Section ------- */
+	.price-table-bg	
+	{
+		width:95%;
+	}
+}
+/* ---------- MAX 1024px ---------- */
+@media only screen and (max-width:1024px )
+{
+	/* ----- Top Home Slider ------- */
+	.flex-direction-nav a { top: 45%; }
+	
+	.responsive-photo{
+		max-width:70%;
+		margin-top:90px;
+	}
+
+}
+@media only screen and (min-width:992px) and (max-width:1024px)
+{
+	/*about circles */
+	.about-circle { height: 320px; padding: 60px 19px; }
+	.read-ribbon-bg { margin-top: 10px; }
+	.about-icon-bg { top: -25%; }
+	.fun-circle { height: 195px; padding-top: 50px; }	
+	.price-circlebg { max-width: 94%; background-size: contain; }
+}
+/* ---------- MAX 991px ---------- */
+@media only screen and (max-width:991px )
+{
+	.logo-container{
+		padding-bottom:0;
+	}
+	.get-description{
+		padding-top:0;
+	}		
+	/* ----- How we Work section ------- */
+	.how-part { 
+		padding-right:15px;
+	}
+	/* ----- Story Vission Mission of Company Section ------- */
+	.tile-description{
+		padding-bottom:35px;
+	}
+	.responsive-photo{
+		position:static;
+		max-width:100%;
+		margin:50px auto 0;
+		display: block;
+	}	
+	.subscribe-icon
+	{
+		left: -13.5%;
+    	top: 0%;
+	}			
+}
+
+/* ---------- MAX 980px ---------- */
+@media only screen and (max-width:980px ) 
+{ 
+	/* ----- Price Section ------- */
+	.price-table
+	{ 
+		width:33%; 
+	} 
+	/* ----- Team Section ------- */
+	.team-part
+	{ 
+		width:32%; 
+	} 
+	/* ----- Testimonial Section Section ------- */
+	.testimonial-part{
+		padding-left:0;
+	}
+	.right-quote{
+		top:74%;
+	}
+	/* ----- Contact Section ------- */
+	.contact-form{
+		padding-left:0;
+	}
+	.form-horizontal .form-group{
+		margin-left:0;
+		margin-right:0;
+	}	
+	/* ----- Timeline ------- */
+	.timeline li:before{
+		left:-14.6%;
+	}
+	.timeline li:nth-of-type(2n):after{
+		right:-14.6%;
+	}	
+	/* ----- Subscribe ------- */
+	li.subscribe:before{
+		left:-16.8%;
+	}	
+	
+}
+/* ---------- MAX 800px AND MIN 768px ---------- */
+@media only screen and (max-width: 900px ) and (min-width: 768px ) {
+	/* ----- Menu ------- */
+	.navbar-header{
+		width:100%;
+	}
+	.navbar-right	{
+		float:left!important;
+	}	
+	.navbar-default .navbar-nav > li > a
+	{
+		width:89px;
+	}
+	/* ----- Logo ------- */
+	.logo-container{
+		display:block;
+		text-align:center;
+	}
+	.logo{
+		margin:0 auto;
+	}
+}
+/* ---------- MAX 800px ---------- */
+@media only screen and (max-width: 800px ) 
+{
+	/* ----- Counter Section ------- */
+	.counter-part{
+		width:100%;
+		height:100%;
+	}
+	/* -----Services Section------- */
+	.services-box{
+		max-width:100%;
+	}
+	/* ----- Timeline ------- */
+	.timeline li{
+		float:none;
+		margin:100px auto;
+		width:70%;		
+	}
+	.timeline li:nth-of-type(2n){
+		float:none;		
+	}
+	.timeline li:nth-of-type(2){
+		margin-top:0;
+	}
+	.timeline li .post-arrow{
+		display:none;
+	}
+	.timeline li:nth-of-type(1):before{
+		display:none;
+	}	
+	.timeline li:before{		
+		top:-10%;
+		margin:0 auto;
+		left:0;
+		right:0;		
+	}
+	.timeline li:nth-of-type(2n):after{		
+		top:-10%;
+		margin:0 auto;
+		left:0;
+		right:0;
+	}
+	/* ----- Subscribe Timeline ------- */
+	li.subscribe:before{
+		top:-55%;
+		margin:0 auto;
+		left:0;
+		right:0;
+	}
+	.subscribe-icon{
+		 left: 48%;
+		text-align: center;
+		top: -48%;
+		
+	}
+	/* ----- Blog Section ------- */
+	.blog-cup{
+		 right: 2.7%;
+		top: -3%;
+	}	
+}
+/* ---------- MAX 768px ---------- */
+@media only screen and (max-width:768px ) 
+{ 
+	.logo-container{
+		padding:10px 0;
+	}	
+	/* -----Price Section------- */
+	.price-table{ width:100%; } 
+	
+	/* -----Team Section------- */
+	.team-part{ width:48%; } 
+	.slider-para{
+		padding:0;		
+	}
+	/* ----- Blog Section ------- */
+	.blog-cup{
+		top: -3%;
+		right: 3%;
+	}
+	/* Disable Animations */
+	 .animated {
+	 	visibility: visible !important;
+		-webkit-animation: none !important;
+	 	-moz-animation: none !important;
+	 	-o-animation: none !important;
+	 	-ms-animation: none !important;
+	 	animation: none !important;
+	 }
+	 .logo{
+	 margin-left:15px;
+	 }
+	 /* ----- Works(Portfolio) Section ------- */
+	 .big-photo {
+   		 width: 50%;
+	}
+	.small-photo {
+		width: 50%;
+	}
+} 
+/* ---------- MAX 640px ---------- */
+@media only screen and (max-width:640px )
+{
+	/* -----Team Section------- */
+	.team-part{ width:100%; } 
+	/* -----Slider Section------- */
+	.slider-title{
+		word-wrap:break-word;
+		font-size:60px;
+	}
+	.slider-para{
+		font-size:13px;
+	}
+	.blog-cup{
+		top: -3%;
+		right: 3%;
+	}
+	/* ----- Timeline Section ------- */
+	.timeline li{
+		width:88%;
+	}	
+	
+	.footer-part
+	{
+		width:100%;
+	}
+	.form-horizontal .form-group{
+		margin: 0 auto 15px;
+		}
+}
+/* ---------- MAX 480px ---------- */
+@media only screen and (max-width:480px )
+{
+	/* -----Slider Section------- */
+	.slider-ribbon-bg { background-size: 100% 100%; }
+	.timeline li{
+		width:100%;
+	}
+	.flex-next {
+		background-image:none;
+		display:none;
+	}
+	.flex-prev{
+		background-image:none;
+		display:none;
+	}
+	.get-description{
+		text-align:center;
+		padding:0;
+		font-size:18px;
+	}
+	.get-ribbon,.load-more-bg,.buy-ribbon-bg,.send-bg{
+		margin-right:auto;
+		margin-left:auto;
+		background-size:contain;
+		width:100%;
+		background-position:center center;
+	}			
+	.big-photo{
+		width:100%;
+	}
+	.small-photo{
+		width:100%;
+	}
+	.blog-cup{
+		top: -3%;
+		right: 5%;
+	}
+	.subscribe-icon {
+    left: 47.5%;
+    top: -47%;
+}
+.form-group{
+	background-size:contain;
+	padding-bottom: 7px;
+    width: 100%;
+}
+}
+/* ---------- MAX 360px ---------- */
+@media only screen and (max-width: 360px ) 
+{ 
+	/* -----About Circle  ------- */
+	.about-circle{ width:100%; height:100%; }
+	/* ----- Works(Portfolio) Section ------- */
+	.portfolio-photo, .portfolio-photo img, .overlay{ width: 100%; }
+	.blog-cup{
+		top: -3%;
+		right: 6%;
+	}
+	.subscribe-icon {
+    left: 46.5%;
+    top: -47%;
+	}
+	.about-circle{
+		border:none;
+		border-bottom:2px solid rgb(172, 109, 53);
+		 border-radius:0;
+	}
+}
+/* ---------- MAX 320px ---------- */
+@media only screen and (max-width:320px) 
+{
+	.ribbon-title { font-size: 28px; }
+	/* ----- Timeline Section ------- */
+	.form-group{
+	padding-bottom: 4px;
+}
+	
+}
